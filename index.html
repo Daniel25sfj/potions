@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Potion Recipe Game</title>
+  </head>
+  <body>
+    <h1>Potion Recipe Game</h1>
+    <p>Create a mana potion! You need: 2 Water, 1 Flower and 1 Berries</p>
+    <p>Create a healing potion! You need: 2 Herbs, 1 Berry, and 1 Mushroom.</p>
+    <div class="main-btn">
+      <button onclick="addHerb()">Add Herbs</button>
+      <button onclick="addBerries()">Add Berries</button>
+      <button onclick="addMushroom()">Add Mushrooms</button>
+      <button onclick="addWater()">Add Water</button>
+      <button onclick="addFlowers()">Add Flowers</button>
+    </div>
+    <div class="btn">
+      <button onclick="brewHealingPotion()">Brew Healing Potion</button>
+      <button onclick="brewManaPotion()">Brew Mana Potion</button>
+    </div>
+    <p>Check the console (F12) to see what's in your cauldron!</p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
